@@ -1,0 +1,27 @@
+:root{
+    --base:#ffffff;
+    --spacing:0px;
+    --blur:0px;   
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+img{
+    margin: 30px 0px;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.h1{
+    color: var(--base);
+}
+
+input{
+    width: 150px;
+}
